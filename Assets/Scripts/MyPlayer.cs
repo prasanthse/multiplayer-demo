@@ -55,7 +55,7 @@ public class MyPlayer : MonoBehaviour
             {
                 transform.Translate(playerDirection * Time.deltaTime * speed);
             }
-        } 
+        }
     }
 
     private void OnCollisionEnter(Collision collision)

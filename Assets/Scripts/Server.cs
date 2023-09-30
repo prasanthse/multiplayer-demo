@@ -95,7 +95,7 @@ public class Server : MonoBehaviourPunCallbacks
     public override void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
     {
         //Each player in a room is assigned a different ActorNumber.
-        //This ensures that no two players within the same room share the same identifier.
+        //This ensures that no any players within the same room share the same identifier.
         //The first player to join typically gets an ActorNumber of 1, the second player gets 2, and so on.
 
         if (changedProps["score"] != null)
